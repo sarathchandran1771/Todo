@@ -1,0 +1,104 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    background-color: #002f49eb;
+    font-family: sans-serif;
+  }
+  
+  .todo-container {
+    width: 450px;
+    text-align: center;
+    margin: auto;
+    margin-top: 10%;
+  }
+  
+  .input-section {
+    border-radius: 5px;
+    background-color: #073b4c;
+    padding: 18px;
+    box-shadow: 0 4px 6px #010f23;
+    color: rgb(194, 199, 204);
+    margin-bottom: 15px;
+  }
+  
+  .input-section input {
+    border-radius: 5px;
+    background-color: #073b4c;
+    border: 1px solid #042e45eb;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    outline: none;
+    color: rgb(194, 199, 204);
+  }
+  
+  h1 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  input::placeholder {
+    color: rgb(194, 199, 204);
+  }
+  
+  ul {
+    padding: 0;
+    text-align: left;
+  }
+  
+  ul li {
+    display: flex;
+    list-style: none;
+    background-color: #073b4c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    color: rgb(194, 199, 204);
+    box-shadow: 0 4px 8px #010f23;
+    align-items: center; /* Align items vertically in the list items */
+  }
+  
+  .list-item {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .list-item input {
+    margin-right: 10px;
+  }
+  
+  .completed {
+    text-decoration: line-through; /* Style completed tasks with a line-through */
+  }
+  
+  .icons {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icons i {
+    cursor: pointer;
+    padding-left: 10px;
+  }
+  
+  .completed-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+
+  .error-message{
+    margin-top: 10px;
+    color: rgb(233, 217, 217);
+  }
